@@ -1,0 +1,3 @@
+# Traffic-Buddy
+The Traffic Buddy project is a real-time traffic monitoring and navigation system developed using Python Flask. It provides users with valuable services to navigate through traffic efficiently and promote road safety without relying on machine learning algorithms.  #Hackathon
+The main features include real-time traffic updates sourced from various data streams, intelligent route planning based on current traffic conditions, reminders for traffic rules and regulations, vehicle verification using the DVLA VES API, and community engagement allowing users to report traffic violations or accidents directly through the app. This information empowers authorities to take prompt actions and contributes to a safer and more organized traffic environment.
