@@ -1,11 +1,12 @@
-from ext import Flask, jsonify, request, db
+from ext import db, app
+from register_routes import register_routes
+from config import Config
 
 
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///traffic_buddy.db'
 
 
 if __name__ == '__main__':
     with app.app_context():
+        register_routes(app, db)
         db.create_all()
-        app.run(debug=True)
+        app.run(port=8010, debug=True)
